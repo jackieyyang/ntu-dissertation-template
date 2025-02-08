@@ -40,7 +40,10 @@ git clone https://github.com/jackieyyang/ntu-dissertation-template.git
 
 以下是 **NTU 论文模板** 的示例：
 
-![](./Dissertation%20Template.png)
+<div align="center">
+    <img src="./Dissertation%20Template.png" alt="Dissertation Template">
+</div>
+
 
 
 
