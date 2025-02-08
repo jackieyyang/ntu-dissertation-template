@@ -42,30 +42,12 @@ git clone https://github.com/jackieyyang/ntu-dissertation-template.git
 
 以下是 **NTU 论文模板** 的示例：
 
-![](./images/Dissertation_Template_00.png)
-![](./images/Dissertation_Template_01.png)
-![](./images/Dissertation_Template_02.png)
-![](./images/Dissertation_Template_03.png)
-![](./images/Dissertation_Template_04.png)
-![](./images/Dissertation_Template_05.png)
-![](./images/Dissertation_Template_06.png)
-![](./images/Dissertation_Template_07.png)
-![](./images/Dissertation_Template_08.png)
-![](./images/Dissertation_Template_09.png)
-![](./images/Dissertation_Template_10.png)
-![](./images/Dissertation_Template_11.png)
-![](./images/Dissertation_Template_12.png)
-![](./images/Dissertation_Template_13.png)
-![](./images/Dissertation_Template_14.png)
-![](./images/Dissertation_Template_15.png)
-![](./images/Dissertation_Template_16.png)
-![](./images/Dissertation_Template_17.png)
-![](./images/Dissertation_Template_18.png)
-![](./images/Dissertation_Template_19.png)
-![](./images/Dissertation_Template_20.png)
-![](./images/Dissertation_Template_21.png)
-![](./images/Dissertation_Template_22.png)
-![](./images/Dissertation_Template_23.png)
+![](./images/template_1.png)
+![](./images/template_2.png)
+![](./images/template_3.png)
+![](./images/template_4.png)
+![](./images/template_5.png)
+![](./images/template_6.png)
 
 ## 📖 详细文档
 
