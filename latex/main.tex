@@ -1,0 +1,202 @@
+\documentclass[12pt,a4paper]{report}
+
+% ============================ 预加载的 LaTeX 包 ============================
+\usepackage[a4paper,left=3.5cm,right=3cm,top=3cm,bottom=3cm]{geometry} % 页面边距
+\usepackage[protrusion=true,expansion=true]{microtype}  % 细节优化
+\usepackage{setspace}                         % 设置 1.5 倍行距
+\usepackage{fancyhdr}                         % 自定义页眉页脚
+\usepackage{newtxtext,newtxmath}              % 设置 Times New Roman 字体
+\usepackage{amsmath, amssymb, amsthm}         % 数学支持
+\usepackage{graphicx}                         % 插入图片
+\usepackage{hyperref}                         % 目录超链接
+\usepackage{booktabs}                         % 美化表格
+\usepackage{array}                            % 处理表格对齐
+\usepackage{multicol}                         % 多列布局
+\usepackage[toc,page]{appendix}               % 处理附录
+\usepackage{tocbibind}  % 让目录中包含“参考文献”和“附录”
+\usepackage{caption}                          % 处理表格和图片标题格式
+\usepackage{xcolor}                           % 颜色支持
+\usepackage{titlesec}                         % 控制标题字体大小
+\usepackage{eso-pic}                          % 添加水印
+\usepackage{tikz}                             % 让水印精确定位
+\usepackage{datetime}                         % 格式化日期
+\usepackage{tocloft}                          % 目录格式控制
+\usepackage{titlesec}                         % 标题格式控制
+\usepackage{titletoc}                         % 目录格式增强
+% \usepackage{showframe}
+
+% ================================= 设置页脚 ================================
+\pagestyle{fancy}                                         % 启用 fancyhdr
+\fancyhf{}                                                % 清除默认的页眉和页脚
+\fancyfoot[R]{\fontsize{12pt}{14pt}\selectfont \thepage}  % 右侧页脚页码 12pt
+\renewcommand{\headrulewidth}{0pt}                        % 取消页眉下划线
+\renewcommand{\footrulewidth}{0pt}                        % 取消页脚下划线
+\fancypagestyle{plain}{                                   % 适配plain风格页面
+    \fancyhf{} 
+    \fancyfoot[R]{\fontsize{12pt}{14pt}\selectfont \thepage}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+% ================================= 设置目录 ================================
+% 修改目录标题格式（居中 + 18pt + 加粗 + 下划线）
+\renewcommand{\contentsname}{}
+\newcommand{\customtoc}{
+    \clearpage
+    \begin{center}
+        \underline{\textbf{\fontsize{18pt}{18pt}\selectfont Table of Contents}}
+    \end{center}
+    \vspace{-1.2\baselineskip}
+}
+% 自定义 "Pages" 列标题，使其右对齐
+\renewcommand{\cftaftertoctitle}{%
+    \vspace{-1.5\baselineskip} % 减少 Table of Contents 后的额外空行
+    \hfill\underline{Pages} % 右对齐
+    \par\vskip-2\baselineskip % 调整间距，防止错位
+}
+%目录格式调整
+% 一级标题 (chapter) 设置
+\renewcommand{\cftchapfont}{\bfseries}                  % 章节标题加粗
+\renewcommand\thechapter{Chapter\enspace\arabic{chapter}}       % 添加 "Chapter " 前缀
+\renewcommand\thesection{\arabic{chapter}.\arabic{section}} % 解决上行代码的乱码问题
+\renewcommand{\cftchapaftersnumb}{}                     % 章节编号后不添加任何内容
+\setlength{\cftchapnumwidth}{5.3em}                       % 设置编号宽度
+% 二级标题（section）设置
+\renewcommand{\cftsecfont}{}                            % 节标题字体
+\renewcommand{\cftsecpresnum}{}                         % 节编号前缀
+\renewcommand{\cftsecaftersnumb}{}                      % 节编号后缀
+\setlength{\cftsecindent}{0em}                          % 节的缩进
+\setlength{\cftsecnumwidth}{2em}                        % 节编号宽度
+\renewcommand{\cftsecdotsep}{\cftnodots}                % 移除点线
+\renewcommand{\cftsecpagefont}[1]{}                     % 移除页码
+% 间距设置
+\setlength{\cftbeforechapskip}{0.5em}                   % 章节前的间距
+\setlength{\cftbeforesecskip}{0.5em}                    % 节前的间距
+
+% ========================== 统一设置 \chapter ==========================
+% 设置有编号的 \chapter 显示 "Chapter 1" + 换行后的标题左对齐
+\titleformat{\chapter}[display]            % "Chapter 1" 独立一行，标题换行后左对齐
+  {\normalfont\Huge\bfseries}  % 不倾斜，字号 Huge，加粗
+  {\thechapter}                            % 显示 "Chapter 1"
+  {0em}                                    % 章节编号和标题之间的间距
+  {\raggedright}                           % 标题居左
+% 设置无编号的 \chapter*{}（如摘要、附录等）格式，不带 "Chapter"
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\Huge\bfseries}  % 不倾斜，字号 Huge，加粗
+  {}                                       % 无编号时不显示 "Chapter 1"
+  {-2.5em}                                 % 章节编号和标题之间的间距
+  {\centering}                             % 标题居中
+% 调整章节标题的间距
+\titlespacing{\chapter}{0pt}{-2em}{0em}  % 影响有编号的章节
+\titlespacing{name=\chapter,numberless}{0pt}{0em}{\baselineskip}  % 影响无编号的章节
+
+% ========================== 统一设置 \section ==========================
+% 设置有编号的 \section{}
+\titleformat{\section}                        % 统一设置 section
+  {\normalfont\fontsize{16pt}{16pt}\bfseries} % 12pt 字号行距，加粗
+  {\thesection\enspace}                       % 章节编号（这里为空）
+  {0pt}                                       % 章节前间距
+  {\raggedright}                              % 章节后格式（这里保持默认）
+% 设置无编号的 \section*{}
+\titleformat{name=\section,numberless}[display]
+  {\clearpage\normalfont\fontsize{16pt}{16pt}\bfseries}
+  {}
+  {-1em}
+  {\centering}
+\titlespacing{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\titlespacing{name=\section,numberless}{0pt}{0em}{1.5\baselineskip}
+
+\global\sloppy  % 允许换行，减少溢出
+
+\begin{document}
+
+\onehalfspacing % 1.5 倍行距
+
+% ================================ 自定义颜色 ================================
+\definecolor{DeepGreen}{rgb}{0.0, 0.690, 0.314}
+
+% ================================ 自定义设置 ================================
+% 左缩进为0
+\setlength{\parindent}{0pt}
+% 自定义日期格式
+\newdateformat{mydate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+% 让图编号显示为 "Figure X.Y"
+\renewcommand{\thefigure}{Figure \arabic{chapter}.\arabic{figure}}
+\setlength{\cftfignumwidth}{4.5em}
+\renewcommand{\figurename}{}
+% 调整 listoffigures (图目录) 的格式
+\makeatletter
+\renewcommand{\listoffigures}{%
+    \begingroup
+    \vspace{-2em} % 减少上方间距
+    \chapter*{\listfigurename}%
+    \@starttoc{lof}%
+    \endgroup
+}
+\makeatother
+% 让表格编号显示为 "Table X.Y"
+\renewcommand{\thetable}{Table \arabic{chapter}.\arabic{table}}
+\setlength{\cfttabnumwidth}{4.5em}
+\renewcommand{\tablename}{}
+% 调整 listoftables (表目录) 的格式
+\makeatletter
+\renewcommand{\listoftables}{%
+    \begingroup
+    \vspace{-2em} % 减少上方间距
+    \chapter*{\listtablename}%
+    \@starttoc{lot}%
+    \endgroup
+}
+\makeatother
+
+
+% ======================== 论文前置部分（Front Matter） =======================
+\pagenumbering{gobble}
+\input{c-front-matter/title-page}             % 论文封面
+\input{c-front-matter/originality}            % 原创性声明
+\input{c-front-matter/supervisor-declaration} % 导师声明
+\input{c-front-matter/authorship}             % 著作声明
+
+\clearpage
+\centering\customtoc
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} % 暂时隐藏目录
+\tableofcontents % 生成目录
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}  % 恢复目录
+\clearpage
+
+\clearpage
+\pagenumbering{roman}                         % 正文前使用罗马数字编号
+\setcounter{page}{1}                          % 从 i 开始
+\pagestyle{fancy}                             % 确保页码继续显示在右侧页脚
+\input{c-front-matter/abstract}               % 摘要
+\input{c-front-matter/acknowledgement}        % 致谢（可选）
+\input{c-front-matter/acronyms}               % 术语缩写表（可选）
+\input{c-front-matter/symbols}                % 符号表（可选）
+\listoffigures                                % 生成图目录
+\listoftables                                 % 生成表目录
+
+% ========================= 论文正文部分（Main Content） ========================
+\clearpage
+\pagenumbering{arabic}       % 正文部分改为阿拉伯数字
+\setcounter{page}{1}         % 从 1 开始
+\pagestyle{fancy}            % 确保页码继续显示在右侧页脚
+\input{chapter-1/chapter-1}  % 第一章
+\input{chapter-2/chapter-2}  % 第二章
+\input{chapter-3/chapter-3}  % 第三章
+\input{chapter-4/chapter-4}  % 第四章
+\input{chapter-5/chapter-5}  % 第五章
+\input{chapter-6/chapter-6}  % 第六章
+
+% ============================ 参考文献（References） ===========================
+\begingroup
+\renewcommand{\chapter}[2]{}  % 禁止 thebibliography 自动添加目录项
+\endgroup
+\renewcommand{\bibname}{References}
+\input{c-back-matter/references} 
+
+% ============================== 附录（Appendix） ==============================
+\appendix
+\input{c-back-matter/appendix-a} % 附录 A
+\input{c-back-matter/appendix-b} % 附录 B
+
+\end{document}

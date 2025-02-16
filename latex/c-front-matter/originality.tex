@@ -1,0 +1,19 @@
+\section*{Statement of Originality}
+
+I hereby certify that the work embodied in this thesis is the result of original research, is free of plagiarised materials, and has not been submitted for a higher degree to any other University or Institution.
+
+\vspace*{1cm}
+
+\noindent
+\begin{center} % 让整个表格居中
+    \begin{tabular}{>{\centering\arraybackslash}p{6cm} p{1cm} >{\centering\arraybackslash}p{6cm}} % 居中对齐
+        \mydate\today &  & 
+        \begin{tikzpicture} % 签名&水印
+            \node[opacity=0.9, anchor=center] at (0,0) {\includegraphics[width=5cm]{assets/ntu-watermark.png}};
+            % 在水印上方插入手写签名图片
+            \node[anchor=north] at (0,2) {\includegraphics[width=4cm]{signature/personal-signature.png}};
+        \end{tikzpicture} \\ % 第一行：日期和签名水印
+        \dotfill &  & \dotfill \\[0.2cm] % 第二行：虚线
+        Date &  & \textcolor{red}{Your Name} \\ % 第三行：日期说明 & 姓名
+    \end{tabular}
+\end{center}
