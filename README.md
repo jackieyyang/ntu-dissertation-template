@@ -73,7 +73,7 @@ latex/
 │   ├── chapter-4.tex
 │   ├── chapter-5.tex
 │   └── chapter-6.tex
-│── back-matter/           % 结尾部分
+│── c-back-matter/           % 结尾部分
 │   ├── references.tex     % 参考文献
 │   ├── appendix-a.tex     % 附录 A
 │   └── appendix-b.tex     % 附录 B
@@ -91,41 +91,6 @@ latex/
 ✅ **自动编号公式、图表 & 交叉引用**  
 ✅ **支持 BibTeX 参考文献管理**  
 ✅ **符合 NTU EEE 论文格式要求**  
-
-```latex
-\documentclass{thesis} % 使用 NTU 论文格式
-\usepackage{graphicx}  % 插入图片支持
-\usepackage{biblatex}  % 参考文献管理
-\addbibresource{references.bib}
-
-\begin{document}
-
-\title{论文标题}
-\author{你的姓名}
-\date{年份}
-\maketitle
-
-\begin{abstract}
-  这里是摘要部分。
-\end{abstract}
-
-\tableofcontents
-\listoffigures
-\listoftables
-
-\chapter{绪论}
-这里是正文内容。
-
-\chapter{方法}
-这里描述你的研究方法。
-
-\chapter{实验结果}
-这里展示实验数据和分析。
-
-\printbibliography % 输出参考文献
-
-\end{document}
-```
 
 ### **5️⃣ LaTeX 版导出 PDF**
 
