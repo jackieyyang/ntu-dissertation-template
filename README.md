@@ -75,6 +75,7 @@ latex/
 │   └── chapter-6.tex
 │── c-back-matter/           % 结尾部分
 │   ├── references.tex     % 参考文献
+│   ├── references.bib     % bib格式参考文献
 │   ├── appendix-a.tex     % 附录 A
 │   └── appendix-b.tex     % 附录 B
 │── signature/             % 签名部分（如需提交认证）
