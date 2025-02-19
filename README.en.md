@@ -74,6 +74,7 @@ latex/
 │   └── chapter-6.tex
 │── back-matter/           % Back matter
 │   ├── references.tex     % References
+│   ├── references.bib     % bib format References
 │   ├── appendix-a.tex     % Appendix A
 │   └── appendix-b.tex     % Appendix B
 │── signature/             % Signature section (if required for submission)
