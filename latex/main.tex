@@ -23,6 +23,8 @@
 \usepackage{tocloft}                          % 目录格式控制
 \usepackage{titlesec}                         % 标题格式控制
 \usepackage{titletoc}                         % 目录格式增强
+\usepackage{cite}                             % bib引用
+\usepackage{lipsum}                           % 内容模拟
 % \usepackage{showframe}
 
 % ================================= 设置页脚 ================================
@@ -188,11 +190,18 @@
 \input{chapter-6/chapter-6}  % 第六章
 
 % ============================ 参考文献（References） ===========================
+% thebibliography管理References
+% 选此方式保留references.tex，删除references.bib
 \begingroup
 \renewcommand{\chapter}[2]{}  % 禁止 thebibliography 自动添加目录项
 \endgroup
 \renewcommand{\bibname}{References}
-\input{c-back-matter/references} 
+\input{c-back-matter/references}
+% bib格式管理References
+% 选此方式保留references.bib，删除references.tex
+% \renewcommand\bibsection{\chapter*{\makebox[\textwidth][l]{\bibname}}}
+% \bibliographystyle{IEEEtran}             % 指定 IEEE 风格
+% \bibliography{c-back-matter/references}  % 你的 .bib 文件（不带 .bib 扩展名）
 
 % ============================== 附录（Appendix） ==============================
 \appendix
