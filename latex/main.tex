@@ -26,6 +26,13 @@
 \usepackage{cite}                             % bib引用
 \usepackage{lipsum}                           % 内容模拟
 % \usepackage{showframe}
+\usepackage{etoolbox}
+
+% ================================= 设置公式 ================================
+\AtBeginEnvironment{equation}{\setstretch{1}}             % 设置公式1倍行距
+\AtEndEnvironment{equation}{}                             % 公式结束恢复原样式
+\numberwithin{equation}{section}                          % 让公式编号跟随章节
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}% 仅显示1.1
 
 % ================================= 设置页脚 ================================
 \pagestyle{fancy}                                         % 启用 fancyhdr
