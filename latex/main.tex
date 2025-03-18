@@ -27,6 +27,7 @@
 \usepackage{lipsum}                           % 内容模拟
 % \usepackage{showframe}
 \usepackage{etoolbox}
+\usepackage{ragged2e}
 
 % ================================= 设置公式 ================================
 \AtBeginEnvironment{equation}{\setstretch{1}}             % 设置公式1倍行距
@@ -116,6 +117,17 @@
 \titlespacing{name=\section,numberless}{0pt}{0em}{1.5\baselineskip}
 
 \global\sloppy  % 允许换行，减少溢出
+
+% 设置subsection
+\titleformat{\subsection}    
+  {\normalfont\fontsize{14pt}{14pt}\bfseries}  % 14pt 字号行距，加粗
+  {\thesubsection\enspace}                     % 章节编号
+  {0pt}                                        % 章节编号与标题间距
+  {\raggedright}                               % 标题左对齐
+
+% 调整 subsection 的间距
+\titlespacing{\subsection}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+
 
 \begin{document}
 
