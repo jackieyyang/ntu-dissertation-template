@@ -211,16 +211,18 @@
 % ============================ 参考文献（References） ===========================
 % thebibliography管理References
 % 选此方式保留references.tex，删除references.bib
-\begingroup
-\renewcommand{\chapter}[2]{}  % 禁止 thebibliography 自动添加目录项
-\endgroup
-\renewcommand{\bibname}{References}
-\input{c-back-matter/references}
+% \begingroup
+% \renewcommand{\chapter}[2]{}  % 禁止 thebibliography 自动添加目录项
+% \endgroup
+% \renewcommand{\bibname}{References}
+% \input{c-back-matter/references}
+
 % bib格式管理References
 % 选此方式保留references.bib，删除references.tex
-% \renewcommand\bibsection{\chapter*{\makebox[\textwidth][l]{\bibname}}}
-% \bibliographystyle{IEEEtran}             % 指定 IEEE 风格
-% \bibliography{c-back-matter/references}  % 你的 .bib 文件（不带 .bib 扩展名）
+\renewcommand{\bibname}{References}
+\renewcommand\bibsection{\chapter*{\makebox[\textwidth][l]{\bibname}}\addcontentsline{toc}{chapter}{\bibname}}
+\bibliographystyle{IEEEtran}             % 指定 IEEE 风格
+\bibliography{c-back-matter/references}  % 你的 .bib 文件（不带 .bib 扩展名）
 
 % ============================== 附录（Appendix） ==============================
 \appendix
