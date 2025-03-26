@@ -1,0 +1,39 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+_minted*
+
+# Word temporary files
+~$*.doc*
+~$*.dot*
+*.tmp
+*.wbk
+.~lock.*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# Build output
+/out/
+/build/
+
+# Personal configuration
+*.bak
+*.swp
