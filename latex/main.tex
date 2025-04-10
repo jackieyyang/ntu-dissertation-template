@@ -78,7 +78,7 @@
 \setlength{\cftsecindent}{0em}                          % 节的缩进
 \setlength{\cftsecnumwidth}{2em}                        % 节编号宽度
 \renewcommand{\cftsecdotsep}{\cftnodots}                % 移除点线
-\renewcommand{\cftsecpagefont}[1]{}                     % 移除页码
+\renewcommand{\cftsecpagefont}{\color{white}}        % 移除页码
 % 间距设置
 \setlength{\cftbeforechapskip}{0.5em}                   % 章节前的间距
 \setlength{\cftbeforesecskip}{0.5em}                    % 节前的间距
@@ -118,7 +118,8 @@
 
 \global\sloppy  % 允许换行，减少溢出
 
-% 设置subsection
+% ======================= 统一设置 \subsection ========================
+% 设置有编号的 \subsection{}
 \titleformat{\subsection}    
   {\normalfont\fontsize{14pt}{14pt}\bfseries}  % 14pt 字号行距，加粗
   {\thesubsection\enspace}                     % 章节编号
@@ -182,7 +183,7 @@
 \centering\customtoc
 \addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} % 暂时隐藏目录
 \tableofcontents % 生成目录
-\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}  % 恢复目录
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}  % 恢复目录
 \clearpage
 
 \clearpage
