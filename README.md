@@ -1,8 +1,8 @@
 # NTU 论文模板 (Dissertation Template)
 
-> 多格式支持：Word / LaTeX 双模板支持 <br>
-> 完全一致：100% 还原官方模板，精美好用，拒绝市面粗制滥造 <br>
-> 免费使用：完全开源，MIT 协议按需二次修改 <br>
+> **多格式支持**：Word / LaTeX 双模板支持 <br>
+> **完全一致**：100% 还原官方模板，精美好用，拒绝市面粗制滥造 <br>
+> **免费使用**：完全开源，MIT 协议按需二次修改 <br>
 
 官方论文相关文档：[EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
 
