@@ -1,20 +1,24 @@
 # NTU Dissertation Template
 
-> A dissertation template for NTU EEE students (Word / LaTeX)  
-> Fully aligned with the official template, beautifully formatted and easy to use  
-> Completely open-source and free to use, helping you focus on research while effortlessly formatting your thesis!  
+> **Multi-format Support**: Word / LaTeX dual template support <br>
+> **Fully Aligned**: 100% faithful to the official template, beautifully formatted and easy to use, no more subpar templates in the market <br>
+> **Free to Use**: Completely open-source, under the MIT License for any modification as needed <br>
 
-For the latest official template, refer to: [Latest Official Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline%2DMSc%2DDiss%5Fv8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
+Official thesis-related documents: [EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
+
+Official thesis template: [EEE Dissertation Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline-MSc-Diss_v8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
+
+Official submission process flowchart: [EEE Dissertation Process Flow](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FMSc%20Dissertation%20Process%20Flow_updated%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
 
 English | [中文](./README.md) 
 
 ## Features
 
-Complies with NTU postgraduate dissertation format 
-Automatically generates Table of Contents & List of Figures/Tables 
-Captions & Cross-referencing with auto-numbering support 
-One-click update (`F9`) for Table of Contents, Figures & References 
-Professional formatting, reducing time spent on adjustments
+- Complies with NTU postgraduate dissertation format 
+- Automatically generates Table of Contents & List of Figures/Tables 
+- Captions & Cross-referencing with auto-numbering support 
+- One-click update (`F9`) for Table of Contents, Figures & References 
+- Professional formatting, reducing time spent on adjustments
 
 ## Download & Usage
 
