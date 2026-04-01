@@ -1,125 +1,98 @@
 # NTU Dissertation Template
 
-> **Multi-format Support**: Word / LaTeX dual template support <br>
-> **Fully Aligned**: 100% faithful to the official template, beautifully formatted and easy to use, no more subpar templates in the market <br>
-> **Free to Use**: Completely open-source, under the MIT License for any modification as needed <br>
+<p align="center">
+  <img src="./assets/icon.png" alt="template" width="600" />
+</p>
 
-Official thesis-related documents: [EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
+<p align="center">
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jackieyyang/ntu-dissertation-template?style=flat-square" alt="LICENSE" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/stargazers"><img src="https://img.shields.io/github/stars/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Stars" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/network/members"><img src="https://img.shields.io/github/forks/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Forks" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/issues"><img src="https://img.shields.io/github/issues/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Issues" /></a>
+</p>
 
-Official thesis template: [EEE Dissertation Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline-MSc-Diss_v8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
+<p align="center">
+  English | <a href="./README.md">中文</a>
+</p>
 
-Official submission process flowchart: [EEE Dissertation Process Flow](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FMSc%20Dissertation%20Process%20Flow_updated%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
+**NTU Dissertation Template** provides both `Word` and `LaTeX` templates for the NTU EEE MSc dissertation, aligned as closely as possible to the official requirements so you can start writing, formatting, and submitting faster.
 
-English | [中文](./README.md) 
+**If this template helps you, consider giving the repository a Star 🌟**.
 
 ## Features
 
-- Complies with NTU postgraduate dissertation format 
-- Automatically generates Table of Contents & List of Figures/Tables 
-- Captions & Cross-referencing with auto-numbering support 
-- One-click update (`F9`) for Table of Contents, Figures & References 
-- Professional formatting, reducing time spent on adjustments
+- Dual-template support for `Word` and `LaTeX`
+- Covers title page, declarations, abstract, chapters, references, and appendices
+- Built-in table of contents, figure/table numbering, cross-references, and bibliography structure
+- Preview screenshots and usage notes for a quick start
+- Works with AI agents and AI editors through `skills` for drafting, polishing, and structuring
 
-## Download & Usage
+## Official Resources
 
-### Download
+- Official dissertation resources: [EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
+- Official dissertation template guidance: [EEE Dissertation Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline-MSc-Diss_v8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
+- Official submission flow: [EEE Dissertation Process Flow](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FMSc%20Dissertation%20Process%20Flow_updated%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
 
-Click [Download Now](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip).
 
-## Word Version Guide
+## Preview
 
-### Open & Customize
+![](./assets/template_1.png)
+![](./assets/template_2.png)
+![](./assets/template_3.png)
+![](./assets/template_4.png)
+![](./assets/template_5.png)
+![](./assets/template_6.png)
 
-- Open `Dissertation_Template.docx` using WPS Office.  
-- Replace title, name, school, year, etc., and change text color to black.  
-- Keep the format intact while adding your dissertation content.  
+## Quick Start
 
-### Update Table of Contents & Figure Numbers
+You can follow either approach below. If you prefer a traditional workflow, use Option 2. If you are fine using natural language with this template, use Option 1.
 
-- Right-click Table of Contents → Select "Update Field" → "Update Entire Table".  
-- Select Figures or Tables → Press `F9` to refresh numbering automatically.  
+### Option 1: Agent is all you need
 
-### Export to PDF & Submit
+If you want to use the dissertation template through conversation, use `skills` with any Agent / AI editor you like (e.g. Cursor, CodeBuddy).
 
-- File → Export → Save as PDF.  
-- Ensure the format complies with NTU dissertation submission requirements.  
+1. Install `Node.js` so `npx` is available on your machine.
 
----
+2. Install `skills`
 
-## LaTeX Version Guide
+    ```bash
+    npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
+    ```
 
-### Download the LaTeX Template
+3. Download and open your preferred AI editor, such as `Cursor` or `CodeBuddy`, with agent / conversational support.
 
-Go to the GitHub repository and download the `https://github.com/jackieyyang/ntu-dissertation-template/latex` directory or clone the entire project.
+4. Through natural language, the agent can pull the template, compile, and apply edits for you.
 
-### Main File Structure
+### Option 2: Traditional templates (Word / LaTeX)
 
-```
-latex/
-│── assets/                         % Resource folder
-│   ├── figures/                    % Stores images
-│   │   └── ntu-logo.png
-│   └────── ntu-watermark.png
-│── c-front-matter/                 % Front matter
-│   ├── title-page.tex              % Title page
-│   ├── abstract.tex                % Abstract
-│   ├── acknowledgement.tex         % Acknowledgements
-│   ├── acronyms.tex                % Acronyms
-│   ├── authorship.tex              % Authorship declaration
-│   ├── originality.tex             % Originality statement
-│   ├── supervisor-declaration.tex  % Supervisor declaration
-│   └── symbols.tex                 % List of symbols
-│── chapters/                       % Chapters
-│   ├── chapter-1.tex
-│   ├── chapter-2.tex
-│   ├── chapter-3.tex
-│   ├── chapter-4.tex
-│   ├── chapter-5.tex
-│   └── chapter-6.tex
-│── back-matter/           % Back matter
-│   ├── references.tex     % References
-│   ├── references.bib     % bib format References
-│   ├── appendix-a.tex     % Appendix A
-│   └── appendix-b.tex     % Appendix B
-│── signature/             % Signature section (if required for submission)
-└── main.tex               % Main file containing all chapters
-```
+If you prefer to write and edit by hand, use the `Word` or `LaTeX` template directly.
 
-### Compilation Method
+#### Word
 
-Recommended to use Overleaf for compilation.
+- Template: [Download Word template](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
+- Open in Microsoft Word or WPS Office and edit
+- Replace placeholders for title, name, school, year, etc.
+- Right-click the table of contents and choose **Update Field**, or press F9 to refresh the TOC, figures, and references
+- Guide: [Download Word template guide (PDF)](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
 
-### LaTeX Template Features
+#### LaTeX
 
-Automatically generates Table of Contents & List of Figures/Tables  
-Auto-numbering for equations, figures & cross-referencing  
-Supports BibTeX reference management  
-Complies with NTU EEE dissertation format  
+- Template ZIP: [Download LaTeX template (repository ZIP)](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
+- Import into Overleaf or compile locally
+- GitHub does not offer a ZIP of only the `latex` folder; use only the `latex` directory from the archive
 
-### Exporting PDF from LaTeX
+## Update Notes
 
-After compiling on Overleaf or locally, generate `main.pdf` and ensure it meets NTU dissertation submission requirements.
+- `2026-03-30`: Fixed incorrect equation numbering so chapter equation indices display correctly.
+- `2025-04-14`: Added a gray NTU logo asset for cover and page styling.
+- `2025-04-10`: Fixed a hidden layout issue when page numbers exceeded two digits.
+- `2025-02-19`: Added `BibTeX` examples, appendix structure, and more sample content for the writing workflow.
+- `2025-02-16`: Released the LaTeX template with front matter, chapters, appendices, assets, and README updates for a Word / LaTeX dual setup.
 
-## Preview (Template Screenshots)
+## Star History
 
-Here are examples of the NTU Dissertation Template:
-
-![](./images/template_1.png)  
-![](./images/template_2.png)  
-![](./images/template_3.png)  
-![](./images/template_4.png)  
-![](./images/template_5.png)  
-![](./images/template_6.png)  
-
-## Detailed Documentation
-
-For the full User Guide, refer to `NTU_Dissertation_Template_Guide.pdf` for step-by-step instructions.
+[![Star History Chart](https://api.star-history.com/svg?repos=jackieyyang/ntu-dissertation-template&type=date&legend=top-left)](https://www.star-history.com/#jackieyyang/ntu-dissertation-template&type=date&legend=top-left)
 
 ## License
 
-This template is released under the MIT License and is fully open-source.  
-You are free to use, modify, and share it, but please retain the original copyright information to support wider adoption.
-
-If this template helps you, consider giving it a ⭐Star!  
-
-Let's make this free dissertation template available to more NTU postgraduate students!
+[MIT](./LICENSE)

@@ -1,129 +1,99 @@
-# NTU 论文模板 (Dissertation Template)
+# NTU 论文模板
 
-> **多格式支持**：Word / LaTeX 双模板支持 <br>
-> **完全一致**：100% 还原官方模板，精美好用，拒绝市面粗制滥造 <br>
-> **免费使用**：完全开源，MIT 协议按需二次修改 <br>
+<p align="center">
+  <img src="./assets/icon.png" alt="template" width="600" />
+</p>
 
-官方论文相关文档：[EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
-
-官方论文模板：[EEE Dissertation Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline-MSc-Diss_v8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
-
-官方提交流程图：[EEE Dissertation Process Flow](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FMSc%20Dissertation%20Process%20Flow_updated%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation).
-
-[English](./README.en.md) | 中文
-
-## 功能特点
-
-- 符合 NTU 研究生论文格式
-- 自动生成目录 & 图表目录
-- 题注 & 交叉引用，支持自动编号
-- 一键更新（`F9`）目录、图表 & 参考文献
-- 专业排版，减少格式调整时间
+<p align="center">
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jackieyyang/ntu-dissertation-template?style=flat-square" alt="LICENSE" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/stargazers"><img src="https://img.shields.io/github/stars/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Stars" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/network/members"><img src="https://img.shields.io/github/forks/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Forks" /></a>
+  <a href="https://github.com/jackieyyang/ntu-dissertation-template/issues"><img src="https://img.shields.io/github/issues/jackieyyang/ntu-dissertation-template?style=flat-square" alt="Issues" /></a>
+</p>
 
 
-## 下载 & 使用
-
-### 下载
-
-点击 [**一键下载**](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)。
+<p align="center">
+  <a href="./README.en.md">English</a> | 中文
+</p>
 
 
-## Word 版使用指南
+**NTU 论文模板** 提供适用于 NTU EEE MSc Dissertation 的 `Word` 与 `LaTeX` 双模板，尽量贴合官方格式要求，帮助你更快开始写作、排版和提交论文。
 
-### 打开并自定义
+**如果这个模板对你有帮助，欢迎点一个 Star 🌟**。
 
-- 使用 WPS Office 打开 `Dissertation_Template.docx`。
-- 替换标题、姓名、学院、年份等信息，将其转为黑色。
-- 保持格式完整，并添加你的论文内容。
+## 特点
 
-### 更新目录 & 图表编号
+- `Word` 与 `LaTeX` 双版本模板
+- 覆盖标题页、声明页、摘要、正文、参考文献与附录
+- 内置目录、图表编号、交叉引用与参考文献结构
+- 附带模板截图与使用说明，便于快速上手
+- 支持结合 AI Agent / AI Editor，通过 `skills` 辅助论文写作、润色与结构整理
 
-- 右键 目录 → 选择“更新字段” → “更新整个目录”。
-- 选中 图表或表格 → 按 `F9` 进行自动编号更新。
+## 官方资源
 
-### 导出 PDF 并提交
-
-- 文件 → 导出 → 另存为 PDF。
-- 确保格式符合 NTU 论文提交要求。
-
-
-## LaTeX 版使用指南
-
-### 下载 LaTeX 版模板
-
-进入 GitHub 仓库，下载 `https://github.com/jackieyyang/ntu-dissertation-template/latex` 目录，或克隆完整项目。
-
-### 主要文件结构
-
-```
-latex/
-│── assets/                         % 资源文件夹
-│   ├── figures/                    % 存放图片
-│   │   └── ntu-logo.png
-│   └────── ntu-watermark.png
-│── c-front-matter/                 % 前置部分
-│   ├── title-page.tex              % 标题页
-│   ├── abstract.tex                % 摘要
-│   ├── acknowledgement.tex         % 致谢
-│   ├── acronyms.tex                % 缩写页
-│   ├── authorship.tex              % 作者关系
-│   ├── originality.tex             % 原创声明
-│   ├── supervisor-declaration.tex  % 导师声明
-│   └── symbols.tex                 % 符号页
-│── chapters/                       % 章节内容
-│   ├── chapter-1.tex
-│   ├── chapter-2.tex
-│   ├── chapter-3.tex
-│   ├── chapter-4.tex
-│   ├── chapter-5.tex
-│   └── chapter-6.tex
-│── c-back-matter/                   % 结尾部分
-│   ├── references.tex               % 参考文献
-│   ├── references.bib               % bib格式参考文献
-│   ├── appendix-a.tex               % 附录 A
-│   └── appendix-b.tex               % 附录 B
-│── signature/                       % 签名部分（如需提交认证）
-└── main.tex                         % 主文件，包含所有章节
-```
-
-### 编译方式
-
-推荐使用 Overleaf 进行编译。
-
-### LaTeX 版论文格式特性
-
-自动生成目录 & 图表目录* 
-自动编号公式、图表 & 交叉引用
-支持 BibTeX 参考文献管理
-符合 NTU EEE 论文格式要求 
-
-### LaTeX 版导出 PDF
-
-在 Overleaf 或本地编译后，生成 `main.pdf`，确保符合 NTU 论文提交要求。
-
-## 预览（模板截图）
-
-以下是 NTU 论文模板的示例：
-
-![](./images/template_1.png)
-![](./images/template_2.png)
-![](./images/template_3.png)
-![](./images/template_4.png)
-![](./images/template_5.png)
-![](./images/template_6.png)
-
-## 详细文档
-
-完整的使用指南请参考 `NTU_Dissertation_Template_Guide.pdf` 了解详细操作步骤。
+- 官方论文资料：[EEE Dissertation Share Documents](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
+- 官方论文模板说明：[EEE Dissertation Template](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FGuideline-MSc-Diss_v8%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
+- 官方提交流程图：[EEE Dissertation Process Flow](https://entuedu.sharepoint.com/sites/Student/cs/eee/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation%2FMSc%20Dissertation%20Process%20Flow_updated%2Epdf&parent=%2Fsites%2FStudent%2Fcs%2Feee%2FShared%20Documents%2FGraduate%2FM%2ESc%2E%20Programme%2FMaster%20of%20Science%20%28MSc%29%20Programme%2FImportant%20Links%2FDissertation)
 
 
-## 许可证（License）
+## 预览
 
-本模板采用 MIT 许可证，完全开源免费。  
-你可以自由使用、修改和分享，但请保留原始版权信息，以支持更多人受益。
+![](./assets/template_1.png)
+![](./assets/template_2.png)
+![](./assets/template_3.png)
+![](./assets/template_4.png)
+![](./assets/template_5.png)
+![](./assets/template_6.png)
 
+## 快速开始
 
+您可以参考以下任意一种方式使用本模板，如果您偏好传统写作流程，建议选择方式二，如果您接受通过自然语言对话的方式使用本模板，建议选择方式一。
 
-**如果本模板对你有帮助，请记得点亮 ⭐Star！**
+### 方式一：Agent is all you need
 
-让更多 NTU 研究生能够免费使用这款论文模板！
+如果你希望通过自然语言对话来完成论文模板使用，推荐使用 `skills` 搭配任意你喜欢的 Agent / AI Editor（如 Cursor、CodeBuddy）。
+
+1. 安装 `Node.js` 环境，确保本机可以使用 `npx` 命令。
+
+2. 安装 `skills`
+
+    ```bash
+    npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
+    ```
+
+3. 下载并打开你喜欢的 AI Editor，如 `Cursor`、`CodeBuddy` 等支持 Agent / AI 对话能力的编辑器。
+4. 通过自然语言对话的方式，Agent 会自动完成模版拉取，编译，修改工作。
+
+### 方式二：传统模版使用（Word / LaTeX）
+
+如果你更希望自己手动编写内容，也可以直接使用 `Word` 或 `LaTeX` 模板。
+
+#### Word 版本
+
+- 模板下载：[下载 Word 模板](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
+- 使用 Microsoft Word 或 WPS Office 打开即可开始编辑
+- 按需替换标题、姓名、学院、年份等占位内容
+- 右键目录选择“更新字段”，或使用 F9 更新目录、图表和引用编号
+- 详细说明：[下载 Word 模板说明](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
+
+#### LaTeX 版本
+
+- 模版下载：[下载 LaTeX 模板](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
+- 可导入 Overleaf，或在本地编译使用
+- GitHub 不支持单独下载 `latex` 目录的 ZIP；请只取 `latex` 目录使用
+
+## 更新说明
+
+- `2026-03-30`：修正公式编号显示错误，避免章节中的公式索引展示异常。
+- `2025-04-14`：新增灰色 NTU Logo 资源，方便封面与页面视觉风格调整。
+- `2025-04-10`：修复页码超过两位数时的隐藏排版问题，提升长论文场景下的稳定性。
+- `2025-02-19`：加入 `BibTeX` 参考文献示例、附录结构与部分示例内容，完善学术写作工作流。
+- `2025-02-16`：发布 LaTeX 版本模板，补齐前置页、正文、附录、资源文件与 README 说明，形成 Word / LaTeX 双模板结构。
+
+## 关注记录
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jackieyyang/ntu-dissertation-template&type=date&legend=top-left)](https://www.star-history.com/#jackieyyang/ntu-dissertation-template&type=date&legend=top-left)
+
+## 许可证
+
+[MIT](./LICENSE)
