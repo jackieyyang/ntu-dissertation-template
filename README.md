@@ -81,6 +81,14 @@
 
     ![skills 安装步骤 6](./assets/skills-download-6.png)
 
+6. 在插件市场下载 LaTeX Workshop，获取保存自动编译功能
+
+    ![skills 安装步骤 7](./assets/skills-download-7.png)
+
+7. 最终效果，开始自然语言交互吧
+
+    ![skills 安装步骤 8](./assets/skills-final.png)
+
 ### 方式二：传统模版使用（Word / LaTeX）
 
 如果你更希望自己手动编写内容，也可以直接使用 `Word` 或 `LaTeX` 模板。

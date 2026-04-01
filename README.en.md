@@ -56,20 +56,36 @@ If you want to use the dissertation template through conversation, use `skills` 
     - CodeBuddy: [Download CodeBuddy](https://www.codebuddy.cn/ide/?auto-download=1)
     - Trae: [Download Trae](https://www.trae.ai/download)
 
-2. Open a terminal and install `skills`
+2. Create a folder for your dissertation and open it in the editor
+
+    ![skills install step 0](./assets/skills-download-0.png)
+
+3. Open a terminal and install `skills`. Walkthrough in the terminal for installing `skills` (in order):
 
     ```bash
     npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
     ```
-
-    Walkthrough in the terminal for installing `skills` (in order):
 
     ![skills install step 1](./assets/skills-download-1.png)
     ![skills install step 2](./assets/skills-download-2.png)
     ![skills install step 3](./assets/skills-download-3.png)
     ![skills install step 4](./assets/skills-download-4.png)
 
-3. Through natural language, the agent can pull the template, compile, and apply edits for you.
+4. In the chat panel on the right, confirm that the installation succeeded
+
+    ![skills install step 5](./assets/skills-download-5.png)
+
+5. In the chat panel on the right, use natural language so the agent can pull the template, compile, and apply edits
+
+    ![skills install step 6](./assets/skills-download-6.png)
+
+6. Install **LaTeX Workshop** from the Extensions marketplace to get save-and-auto-compile
+
+    ![skills install step 7](./assets/skills-download-7.png)
+
+7. Final result—start natural language interaction
+
+    ![skills final](./assets/skills-final.png)
 
 ### Option 2: Traditional templates (Word / LaTeX)
 
