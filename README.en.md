@@ -45,23 +45,31 @@
 
 ## Quick Start
 
-You can follow either approach below. If you prefer a traditional workflow, use Option 2. If you are fine using natural language with this template, use Option 1.
+You can refer to either of the following approaches. If you prefer a traditional writing workflow, we recommend Option 2. If you are comfortable using this template through natural language conversation, we recommend Option 1.
 
 ### Option 1: Agent is all you need
 
 If you want to use the dissertation template through conversation, use `skills` with any Agent / AI editor you like (e.g. Cursor, CodeBuddy).
 
-1. Install `Node.js` so `npx` is available on your machine.
+1. Download an AI editor
+    - Cursor: [Download Cursor](https://cursor.com/download)
+    - CodeBuddy: [Download CodeBuddy](https://www.codebuddy.cn/ide/?auto-download=1)
+    - Trae: [Download Trae](https://www.trae.ai/download)
 
-2. Install `skills`
+2. Open a terminal and install `skills`
 
     ```bash
     npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
     ```
 
-3. Download and open your preferred AI editor, such as `Cursor` or `CodeBuddy`, with agent / conversational support.
+    Walkthrough in the terminal for installing `skills` (in order):
 
-4. Through natural language, the agent can pull the template, compile, and apply edits for you.
+    ![skills install step 1](./assets/skills-download-1.png)
+    ![skills install step 2](./assets/skills-download-2.png)
+    ![skills install step 3](./assets/skills-download-3.png)
+    ![skills install step 4](./assets/skills-download-4.png)
+
+3. Through natural language, the agent can pull the template, compile, and apply edits for you.
 
 ### Option 2: Traditional templates (Word / LaTeX)
 
@@ -69,17 +77,17 @@ If you prefer to write and edit by hand, use the `Word` or `LaTeX` template dire
 
 #### Word
 
-- Template: [Download Word template](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
-- Open in Microsoft Word or WPS Office and edit
+- Template download: [Download Word template](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
+- Open in Microsoft Word or WPS Office and start editing
 - Replace placeholders for title, name, school, year, etc.
 - Right-click the table of contents and choose **Update Field**, or press F9 to refresh the TOC, figures, and references
-- Guide: [Download Word template guide (PDF)](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
+- Detailed guide: [Download Word template guide (PDF)](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
 
 #### LaTeX
 
-- Template ZIP: [Download LaTeX template (repository ZIP)](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
+- Template download: [Download LaTeX template (ZIP)](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
 - Import into Overleaf or compile locally
-- GitHub does not offer a ZIP of only the `latex` folder; use only the `latex` directory from the archive
+- GitHub does not provide a ZIP of only the `latex` folder; extract and use the `latex` directory from the archive
 
 ## Update Notes
 

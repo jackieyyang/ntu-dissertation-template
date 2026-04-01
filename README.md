@@ -53,16 +53,26 @@
 
 如果你希望通过自然语言对话来完成论文模板使用，推荐使用 `skills` 搭配任意你喜欢的 Agent / AI Editor（如 Cursor、CodeBuddy）。
 
-1. 安装 `Node.js` 环境，确保本机可以使用 `npx` 命令。
+1. 下载 AI Editor
+    - Cursor: [点击下载 Cursor](https://cursor.com/download)
+    - Codebuddy: [点击下载 Codebuddy](https://www.codebuddy.cn/ide/?auto-download=1)
+    - Trae: [点击下载 Trae](https://www.trae.ai/download)
 
-2. 安装 `skills`
+
+2. 打开终端安装 `skills`
 
     ```bash
     npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
     ```
 
-3. 下载并打开你喜欢的 AI Editor，如 `Cursor`、`CodeBuddy` 等支持 Agent / AI 对话能力的编辑器。
-4. 通过自然语言对话的方式，Agent 会自动完成模版拉取，编译，修改工作。
+    终端中安装 `skills` 的过程示意（按顺序）：
+
+    ![skills 安装步骤 1](./assets/skills-download-1.png)
+    ![skills 安装步骤 2](./assets/skills-download-2.png)
+    ![skills 安装步骤 3](./assets/skills-download-3.png)
+    ![skills 安装步骤 4](./assets/skills-download-4.png)
+
+3. 通过自然语言对话的方式，Agent 会自动完成模版拉取，编译，修改工作。
 
 ### 方式二：传统模版使用（Word / LaTeX）
 
