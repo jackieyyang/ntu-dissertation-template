@@ -58,21 +58,28 @@
     - Codebuddy: [点击下载 Codebuddy](https://www.codebuddy.cn/ide/?auto-download=1)
     - Trae: [点击下载 Trae](https://www.trae.ai/download)
 
+2. 新建一个论文目录并打开
 
-2. 打开终端安装 `skills`
+    ![skills 安装步骤 0](./assets/skills-download-0.png)
+
+3. 打开终端安装 `skills`， 终端中安装 `skills` 的过程示意（按顺序）：
 
     ```bash
     npx skills add https://github.com/jackieyyang/skills --skill ntu-dissertation-expert
     ```
-
-    终端中安装 `skills` 的过程示意（按顺序）：
 
     ![skills 安装步骤 1](./assets/skills-download-1.png)
     ![skills 安装步骤 2](./assets/skills-download-2.png)
     ![skills 安装步骤 3](./assets/skills-download-3.png)
     ![skills 安装步骤 4](./assets/skills-download-4.png)
 
-3. 通过自然语言对话的方式，Agent 会自动完成模版拉取，编译，修改工作。
+4. 在右侧自然语言聊天，验证是否安装成功
+
+    ![skills 安装步骤 5](./assets/skills-download-5.png)
+
+5. 在右侧，通过自然语言对话的方式，Agent 会自动完成模版拉取，编译，修改工作
+
+    ![skills 安装步骤 6](./assets/skills-download-6.png)
 
 ### 方式二：传统模版使用（Word / LaTeX）
 
