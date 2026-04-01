@@ -1,4 +1,4 @@
-# NTU Dissertation Template
+# NTU Dissertation Template - Agent is all you need
 
 <p align="center">
   <img src="./assets/icon.png" alt="template" width="600" />

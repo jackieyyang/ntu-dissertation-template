@@ -1,4 +1,4 @@
-# NTU 论文模板
+# NTU 论文模板 - Agent is all you need
 
 <p align="center">
   <img src="./assets/icon.png" alt="template" width="600" />
