@@ -33,6 +33,7 @@ _minted*
 # Build output
 /out/
 /build/
+main.pdf
 
 # Personal configuration
 *.bak

@@ -5,10 +5,12 @@
 \usepackage[protrusion=true,expansion=true]{microtype}  % 细节优化
 \usepackage{setspace}                         % 设置 1.5 倍行距
 \usepackage{fancyhdr}                         % 自定义页眉页脚
-\usepackage{newtxtext,newtxmath}              % 设置 Times New Roman 字体
-\usepackage{amsmath, amssymb, amsthm}         % 数学支持
+% amsmath/amsthm 须在 newtxmath 之前；勿加载 amssymb（与 newtxmath 的 AMS 符号重复）
+\usepackage{amsmath,amsthm}                   % 数学与定理环境
+\usepackage{newtxtext,newtxmath}              % Times New Roman 字体
 \usepackage{graphicx}                         % 插入图片
 \usepackage{hyperref}                         % 目录超链接
+\hypersetup{hidelinks,colorlinks=false,linktoc=all}
 \usepackage{booktabs}                         % 美化表格
 \usepackage{array}                            % 处理表格对齐
 \usepackage{multicol}                         % 多列布局
@@ -21,13 +23,13 @@
 \usepackage{tikz}                             % 让水印精确定位
 \usepackage{datetime}                         % 格式化日期
 \usepackage{tocloft}                          % 目录格式控制
-\usepackage{titlesec}                         % 标题格式控制
 \usepackage{titletoc}                         % 目录格式增强
 \usepackage{cite}                             % bib引用
 \usepackage{lipsum}                           % 内容模拟
 % \usepackage{showframe}
 \usepackage{etoolbox}
 \usepackage{ragged2e}
+\usepackage[normalem]{ulem}                    % \uline 可断行，替代不可断行的 \underline
 
 % ================================= 设置公式 ================================
 \AtBeginEnvironment{equation}{\setstretch{1}}             % 设置公式1倍行距
