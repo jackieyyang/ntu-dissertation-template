@@ -51,6 +51,8 @@ You can refer to either of the following approaches. If you prefer a traditional
 
 If you want to use the dissertation template through conversation, use `skills` with any Agent / AI editor you like (e.g. Cursor, CodeBuddy).
 
+If you prefer **zero local environment setup**, you can use [OpenAI Prism](https://openai.com/prism) directly.
+
 1. Download an AI editor
     - Cursor: [Download Cursor](https://cursor.com/download)
     - CodeBuddy: [Download CodeBuddy](https://www.codebuddy.cn/ide/?auto-download=1)

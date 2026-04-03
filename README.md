@@ -53,6 +53,8 @@
 
 如果你希望通过自然语言对话来完成论文模板使用，推荐使用 `skills` 搭配任意你喜欢的 Agent / AI Editor（如 Cursor、CodeBuddy）。
 
+如果你希望**不配置本地环境**，可以直接使用 [OpenAI Prism](https://openai.com/prism)。
+
 1. 下载 AI Editor
     - Cursor: [点击下载 Cursor](https://cursor.com/download)
     - Codebuddy: [点击下载 Codebuddy](https://www.codebuddy.cn/ide/?auto-download=1)
