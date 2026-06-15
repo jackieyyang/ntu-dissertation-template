@@ -97,17 +97,16 @@
 
 #### Word 版本
 
-- 模板下载：[下载 Word 模板](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
+- 模板下载：[下载 Word 版本](https://github.com/jackieyyang/ntu-dissertation-template/releases/download/v1.0.0/word-v1.0.0.zip)
 - 使用 Microsoft Word 或 WPS Office 打开即可开始编辑
 - 按需替换标题、姓名、学院、年份等占位内容
 - 右键目录选择“更新字段”，或使用 F9 更新目录、图表和引用编号
-- 详细说明：[下载 Word 模板说明](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
+- 压缩包内包含 Word 模板和 PDF 使用说明
 
 #### LaTeX 版本
 
-- 模版下载：[下载 LaTeX 模板](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
+- 模版下载：[下载 LaTeX 版本](https://github.com/jackieyyang/ntu-dissertation-template/releases/download/v1.0.0/latex-v1.0.0.zip)
 - 可导入 Overleaf，或在本地编译使用
-- GitHub 不支持单独下载 `latex` 目录的 ZIP；请只取 `latex` 目录使用
 
 ## 关注记录
 

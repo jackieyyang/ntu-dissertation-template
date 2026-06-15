@@ -95,17 +95,16 @@ If you prefer to write and edit by hand, use the `Word` or `LaTeX` template dire
 
 #### Word
 
-- Template download: [Download Word template](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/word/Dissertation%20Template.docx)
+- Template download: [Download Word version](https://github.com/jackieyyang/ntu-dissertation-template/releases/download/v1.0.0/word-v1.0.0.zip)
 - Open in Microsoft Word or WPS Office and start editing
 - Replace placeholders for title, name, school, year, etc.
 - Right-click the table of contents and choose **Update Field**, or press F9 to refresh the TOC, figures, and references
-- Detailed guide: [Download Word template guide (PDF)](https://github.com/jackieyyang/ntu-dissertation-template/raw/refs/heads/main/NTU_Dissertation_Template_Guide.pdf)
+- The ZIP package includes the Word template and PDF guide
 
 #### LaTeX
 
-- Template download: [Download LaTeX template (ZIP)](https://github.com/jackieyyang/ntu-dissertation-template/archive/refs/heads/main.zip)
+- Template download: [Download LaTeX version](https://github.com/jackieyyang/ntu-dissertation-template/releases/download/v1.0.0/latex-v1.0.0.zip)
 - Import into Overleaf or compile locally
-- GitHub does not provide a ZIP of only the `latex` folder; extract and use the `latex` directory from the archive
 
 ## Star History
 
