@@ -107,14 +107,6 @@ If you prefer to write and edit by hand, use the `Word` or `LaTeX` template dire
 - Import into Overleaf or compile locally
 - GitHub does not provide a ZIP of only the `latex` folder; extract and use the `latex` directory from the archive
 
-## Update Notes
-
-- `2026-03-30`: Fixed incorrect equation numbering so chapter equation indices display correctly.
-- `2025-04-14`: Added a gray NTU logo asset for cover and page styling.
-- `2025-04-10`: Fixed a hidden layout issue when page numbers exceeded two digits.
-- `2025-02-19`: Added `BibTeX` examples, appendix structure, and more sample content for the writing workflow.
-- `2025-02-16`: Released the LaTeX template with front matter, chapters, appendices, assets, and README updates for a Word / LaTeX dual setup.
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jackieyyang/ntu-dissertation-template&type=date&legend=top-left)](https://www.star-history.com/#jackieyyang/ntu-dissertation-template&type=date&legend=top-left)

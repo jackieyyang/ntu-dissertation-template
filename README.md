@@ -109,14 +109,6 @@
 - 可导入 Overleaf，或在本地编译使用
 - GitHub 不支持单独下载 `latex` 目录的 ZIP；请只取 `latex` 目录使用
 
-## 更新说明
-
-- `2026-03-30`：修正公式编号显示错误，避免章节中的公式索引展示异常。
-- `2025-04-14`：新增灰色 NTU Logo 资源，方便封面与页面视觉风格调整。
-- `2025-04-10`：修复页码超过两位数时的隐藏排版问题，提升长论文场景下的稳定性。
-- `2025-02-19`：加入 `BibTeX` 参考文献示例、附录结构与部分示例内容，完善学术写作工作流。
-- `2025-02-16`：发布 LaTeX 版本模板，补齐前置页、正文、附录、资源文件与 README 说明，形成 Word / LaTeX 双模板结构。
-
 ## 关注记录
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jackieyyang/ntu-dissertation-template&type=date&legend=top-left)](https://www.star-history.com/#jackieyyang/ntu-dissertation-template&type=date&legend=top-left)
